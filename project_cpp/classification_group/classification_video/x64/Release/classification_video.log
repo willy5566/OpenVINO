@@ -1,0 +1,102 @@
+﻿  classification_video.cpp
+E:\Program Files (x86)\Intel\openvino_2021.4.752\opencv\include\opencv2\calib3d.hpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_common.h(296,82): warning C4275: 沒有 DLL 介面 class 'std::runtime_error' (用來當做 DLL 介面 struct 'InferenceEngine::details::InferenceEngineException' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdexcept(101): message : 請參閱 'std::runtime_error' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_common.h(296): message : 請參閱 'InferenceEngine::details::InferenceEngineException' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(142,16): warning C4251: 'InferenceEngine::BlockingDesc::blockedDims': class 'std::vector<size_t,std::allocator<size_t>>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::BlockingDesc' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\opencv\include\opencv2\core\mat.hpp(2714): message : 請參閱 'std::vector<size_t,std::allocator<size_t>>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(144,16): warning C4251: 'InferenceEngine::BlockingDesc::strides': class 'std::vector<size_t,std::allocator<size_t>>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::BlockingDesc' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\opencv\include\opencv2\core\mat.hpp(2714): message : 請參閱 'std::vector<size_t,std::allocator<size_t>>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(146,16): warning C4251: 'InferenceEngine::BlockingDesc::order': class 'std::vector<size_t,std::allocator<size_t>>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::BlockingDesc' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\opencv\include\opencv2\core\mat.hpp(2714): message : 請參閱 'std::vector<size_t,std::allocator<size_t>>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(149,16): warning C4251: 'InferenceEngine::BlockingDesc::offsetPaddingToData': class 'std::vector<size_t,std::allocator<size_t>>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::BlockingDesc' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\opencv\include\opencv2\core\mat.hpp(2714): message : 請參閱 'std::vector<size_t,std::allocator<size_t>>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(315,16): warning C4251: 'InferenceEngine::TensorDesc::dims': class 'std::vector<size_t,std::allocator<size_t>>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::TensorDesc' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\opencv\include\opencv2\core\mat.hpp(2714): message : 請參閱 'std::vector<size_t,std::allocator<size_t>>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(319,15): warning C4251: 'InferenceEngine::TensorDesc::precision': class 'InferenceEngine::Precision' 必須有 DLL 介面，才能被為 class 'InferenceEngine::TensorDesc' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_precision.hpp(24): message : 請參閱 'InferenceEngine::Precision' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_data.h(147,27): warning C4251: 'InferenceEngine::Data::_impl': class 'std::shared_ptr<InferenceEngine::Data::Impl>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::Data' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_data.h(147): message : 請參閱 'std::shared_ptr<InferenceEngine::Data::Impl>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_data.h(153,17): warning C4251: 'InferenceEngine::Data::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::Data' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_icnn_network.hpp(36,97): warning C4251: 'std::enable_shared_from_this<InferenceEngine::ICNNNetwork>::_Wptr': class 'std::weak_ptr<_Ty>' 必須有 DLL 介面，才能被為 class 'std::enable_shared_from_this<InferenceEngine::ICNNNetwork>' 的用戶端使用
+          with
+          [
+              _Ty=InferenceEngine::ICNNNetwork
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3052): message : 請參閱 'std::weak_ptr<_Ty>' 的宣告
+          with
+          [
+              _Ty=InferenceEngine::ICNNNetwork
+          ]
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_iextension.h(147,96): warning C4251: 'std::enable_shared_from_this<InferenceEngine::IExtension>::_Wptr': class 'std::weak_ptr<_Ty>' 必須有 DLL 介面，才能被為 class 'std::enable_shared_from_this<InferenceEngine::IExtension>' 的用戶端使用
+          with
+          [
+              _Ty=InferenceEngine::IExtension
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3052): message : 請參閱 'std::weak_ptr<_Ty>' 的宣告
+          with
+          [
+              _Ty=InferenceEngine::IExtension
+          ]
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\details\ie_so_loader.h(24,27): warning C4251: 'InferenceEngine::details::SharedObjectLoader::_impl': class 'std::shared_ptr<InferenceEngine::details::SharedObjectLoader::Impl>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::details::SharedObjectLoader' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\details\ie_so_loader.h(24): message : 請參閱 'std::shared_ptr<InferenceEngine::details::SharedObjectLoader::Impl>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_extension.h(100,36): warning C4251: 'InferenceEngine::Extension::actual': class 'InferenceEngine::details::SOPointer<InferenceEngine::IExtension>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::Extension' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_extension.h(100): message : 請參閱 'InferenceEngine::details::SOPointer<InferenceEngine::IExtension>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_cnn_network.h(214,34): warning C4251: 'InferenceEngine::CNNNetwork::network': class 'std::shared_ptr<_Ty>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::CNNNetwork' 的用戶端使用
+          with
+          [
+              _Ty=InferenceEngine::ICNNNetwork
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3044): message : 請參閱 'std::shared_ptr<_Ty>' 的宣告
+          with
+          [
+              _Ty=InferenceEngine::ICNNNetwork
+          ]
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_compound_blob.h(110,28): warning C4251: 'InferenceEngine::CompoundBlob::_blobs': class 'std::vector<InferenceEngine::Blob::Ptr,std::allocator<InferenceEngine::Blob::Ptr>>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::CompoundBlob' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_iextension.h(140): message : 請參閱 'std::vector<InferenceEngine::Blob::Ptr,std::allocator<InferenceEngine::Blob::Ptr>>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_memory_state.hpp(30,46): warning C4251: 'InferenceEngine::VariableState::_impl': class 'std::shared_ptr<InferenceEngine::IVariableStateInternal>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::VariableState' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_memory_state.hpp(30): message : 請參閱 'std::shared_ptr<InferenceEngine::IVariableStateInternal>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_memory_state.hpp(32,46): warning C4251: 'InferenceEngine::VariableState::actual': class 'std::shared_ptr<InferenceEngine::IVariableState>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::VariableState' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_imemory_state.hpp(31): message : 請參閱 'std::shared_ptr<InferenceEngine::IVariableState>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(37,58): warning C4251: 'InferenceEngine::InferRequest::_impl': class 'std::shared_ptr<InferenceEngine::IInferRequestInternal>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::InferRequest' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(37): message : 請參閱 'std::shared_ptr<InferenceEngine::IInferRequestInternal>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(39,58): warning C4251: 'InferenceEngine::InferRequest::actual': class 'std::shared_ptr<_Ty>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::InferRequest' 的用戶端使用
+          with
+          [
+              _Ty=InferenceEngine::IInferRequest
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3044): message : 請參閱 'std::shared_ptr<_Ty>' 的宣告
+          with
+          [
+              _Ty=InferenceEngine::IInferRequest
+          ]
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(40,58): warning C4251: 'InferenceEngine::InferRequest::callback': class 'std::shared_ptr<InferenceEngine::details::ICompletionCallbackWrapper>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::InferRequest' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(40): message : 請參閱 'std::shared_ptr<InferenceEngine::details::ICompletionCallbackWrapper>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_executable_network.hpp(34,50): warning C4251: 'InferenceEngine::ExecutableNetwork::_impl': class 'std::shared_ptr<InferenceEngine::IExecutableNetworkInternal>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::ExecutableNetwork' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_executable_network.hpp(34): message : 請參閱 'std::shared_ptr<InferenceEngine::IExecutableNetworkInternal>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_executable_network.hpp(36,50): warning C4251: 'InferenceEngine::ExecutableNetwork::actual': class 'std::shared_ptr<_Ty>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::ExecutableNetwork' 的用戶端使用
+          with
+          [
+              _Ty=InferenceEngine::IExecutableNetwork
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3044): message : 請參閱 'std::shared_ptr<_Ty>' 的宣告
+          with
+          [
+              _Ty=InferenceEngine::IExecutableNetwork
+          ]
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_core.hpp(34,27): warning C4251: 'InferenceEngine::Core::_impl': class 'std::shared_ptr<InferenceEngine::Core::Impl>' 必須有 DLL 介面，才能被為 class 'InferenceEngine::Core' 的用戶端使用
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_core.hpp(34): message : 請參閱 'std::shared_ptr<InferenceEngine::Core::Impl>' 的宣告
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\samples\cpp\common\utils\include\samples\common.hpp(372,26): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\samples\cpp\common\utils\include\samples\common.hpp(377,27): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\samples\cpp\common\utils\include\samples\common.hpp(383,30): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\samples\cpp\common\utils\include\samples\common.hpp(386,31): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+E:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\samples\cpp\common\utils\include\samples\common.hpp(847,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+E:\user\Documents\OpenVINO\project_cpp\classification_group\classification_video\classification_video.cpp(41,32): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+E:\user\Documents\OpenVINO\project_cpp\classification_group\classification_video\classification_video.cpp(66,18): warning C4244: '正在初始化': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  正在產生程式碼
+  1 of 768 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成程式碼產生
+  classification_video.vcxproj -> E:\user\Documents\OpenVINO\project_cpp\classification_group\x64\Release\classification_video.exe
