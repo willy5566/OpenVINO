@@ -1,0 +1,1 @@
+F:\Willy\tools\inference_engine_samples_build\OpenVINO\project_cpp\object_detection_group\object_detection_group\x64\Release\object_detection_video.exe -m C:\Users\willyhuang\Documents\Intel\OpenVINO\openvino_models\ir\public\yolo-v4-tf\FP16\yolo-v4-tf.xml -labels labels\coco_80cl.txt -i car-detection.mp4 -at yolo -d GPU

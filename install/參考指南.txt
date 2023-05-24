@@ -1,0 +1,6 @@
+Openvino2021_2安装完成后跑Demo遇到的问题
+https://blog.csdn.net/u013688268/article/details/114107050
+
+open model zoo
+https://docs.openvino.ai/latest/omz_tools_downloader.html#doxid-omz-tools-downloader
+https://github.com/openvinotoolkit/open_model_zoo

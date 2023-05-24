@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object_detection_video", "object_detection_video\object_detection_video.vcxproj", "{0E17DF5A-63B4-4FC8-A17E-593D7341913B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object_detection_video_cpp", "object_detection_video_cpp\object_detection_video_cpp.vcxproj", "{BC5AF44A-DA75-44CC-A2BA-A71BB94BB0DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E17DF5A-63B4-4FC8-A17E-593D7341913B}.Debug|x64.ActiveCfg = Debug|x64
+		{0E17DF5A-63B4-4FC8-A17E-593D7341913B}.Debug|x64.Build.0 = Debug|x64
+		{0E17DF5A-63B4-4FC8-A17E-593D7341913B}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E17DF5A-63B4-4FC8-A17E-593D7341913B}.Debug|x86.Build.0 = Debug|Win32
+		{0E17DF5A-63B4-4FC8-A17E-593D7341913B}.Release|x64.ActiveCfg = Release|x64
+		{0E17DF5A-63B4-4FC8-A17E-593D7341913B}.Release|x64.Build.0 = Release|x64
+		{0E17DF5A-63B4-4FC8-A17E-593D7341913B}.Release|x86.ActiveCfg = Release|Win32
+		{0E17DF5A-63B4-4FC8-A17E-593D7341913B}.Release|x86.Build.0 = Release|Win32
+		{BC5AF44A-DA75-44CC-A2BA-A71BB94BB0DB}.Debug|x64.ActiveCfg = Debug|x64
+		{BC5AF44A-DA75-44CC-A2BA-A71BB94BB0DB}.Debug|x64.Build.0 = Debug|x64
+		{BC5AF44A-DA75-44CC-A2BA-A71BB94BB0DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC5AF44A-DA75-44CC-A2BA-A71BB94BB0DB}.Debug|x86.Build.0 = Debug|Win32
+		{BC5AF44A-DA75-44CC-A2BA-A71BB94BB0DB}.Release|x64.ActiveCfg = Release|x64
+		{BC5AF44A-DA75-44CC-A2BA-A71BB94BB0DB}.Release|x64.Build.0 = Release|x64
+		{BC5AF44A-DA75-44CC-A2BA-A71BB94BB0DB}.Release|x86.ActiveCfg = Release|Win32
+		{BC5AF44A-DA75-44CC-A2BA-A71BB94BB0DB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEFB9466-FD58-4023-B754-86A5FF7F65C6}
+	EndGlobalSection
+EndGlobal
